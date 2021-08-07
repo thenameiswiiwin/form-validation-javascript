@@ -1,0 +1,43 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+.errors {
+	display: none;
+	background-color: hsl(0, 100%, 80%);
+	border-radius: 0.5rem;
+	padding: 10px;
+	color: hsl(0, 50%, 20%);
+	margin-bottom: 1rem;
+}
+
+.errors.show {
+	display: block;
+}
+
+#form {
+	margin: 1rem 0;
+}
+
+.error-title {
+	margin: 0;
+	margin-bottom: 0.5rem;
+}
+
+.errors-list {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.form-group {
+	margin-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
